@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_above="@+id/password"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignStart="@+id/password" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_above="@+id/button_signup"
+        android:layout_alignLeft="@+id/button_signup"
+        android:layout_alignStart="@+id/button_signup"
+        android:layout_marginBottom="23dp" />
+
+    <Button
+        android:id="@+id/button_signup"
+        android:layout_width="217dp"
+        android:layout_height="39dp"
+        android:text="SIGN UP"
+        android:layout_marginBottom="215dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google_sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button_signup"
+        android:layout_alignStart="@+id/button_signup"
+        android:layout_alignRight="@+id/button_signup"
+        android:layout_alignEnd="@+id/button_signup" />
+
+</RelativeLayout>
