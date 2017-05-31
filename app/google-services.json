@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "484861679698",
+    "project_id": "tiger-newspaper"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484861679698:android:162e293a5c5567f9",
+        "android_client_info": {
+          "package_name": "com.example.eliaschang8.tigernewspaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484861679698-v58v1os1gbao6dn42vonvdoalrbj8akh.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "484861679698-6nk0an0mkkt1tjl7ra1of0l0gnadvgjg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eliaschang8.tigernewspaper",
+            "certificate_hash": "54b88f82618b7c4a8f323dc75d710107fb56875e"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3nxFhMlKSK804Piwh1Q0oZJgxQpqip4A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

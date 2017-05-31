@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">TigerNewspaper</string>
-    <string name="signed_in_fmt">Signed in as: %s</string>
+    <string name="signed_in_fmt">Signed in as %s</string>
     <string name="signed_out">Signed out</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="email">hint_email</string>
+    <string name="password">hint_password</string>
+    <string name="sign_up">button_sign_up_text</string>
 </resources>
